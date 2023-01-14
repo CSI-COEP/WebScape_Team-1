@@ -11,12 +11,15 @@
   outline: none;
   color: "black";
 }
+p{
+    text-transform: none;
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-
-  scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+    scroll-behavior: smooth;
 }
 
 body {
