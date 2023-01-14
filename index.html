@@ -13,161 +13,69 @@
 <body>
     <header class="header" >
         <a href="#" class="logo">
-            <img src="pngegg.png" alt="logo">
+            <img src="images/logo.jpg" alt="logo">
         </a>
         <nav class="navbar">
             <a href="./index.html" class="active">home</a>
             <a href="./about.html">about</a>
             <a href="./menu.html">menu</a>
-            <a href="./products.html">products</a>
-            <a href="./review.html">review</a>
             <a href="./contact.html">contact</a>
             <a href="./blog.html">blog</a>
         </nav>
-        <div class="buttons">
-            <button id="search-btn">
-                <i class="fas fa-search"></i>
-            </button>
-            <button id="cart-btn">
-                <i class="fas fa-shopping-cart"></i>
-            </button>
-            <button id="menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-        <div class="search-form">
-            <input type="text" class="search-input" id="search-box" placeholder="Search">
-            <i class="fas fa-search"></i>
-        </div>
+        
     </header>
     <section class="home" id="home">
         <div class="content">
-        <h3 style="color: black;">Eat Street</h3>
-        <p style="color: #2A5B47; font-size: large;">Bringing your city's best eats to your doorstep. </p>
+        <h3 style="color: white;">The Burger Joint</h3>
+        <p style="color: yellow; font-size: large;">Bringing your city's best Burgers to your doorstep. </p>
+        <div class="butt">
+          <style scoped>
+            a.cta-btn {
+              width: 20rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+a.cta-btn:hover {
+  background: #c4e201;
+}
+
+a.cta-btn > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+a.cta-btn:hover svg {
+  transform: translateX(5px);
+}
+
+a.cta-btn:active {
+  transform: scale(0.95);
+}
+
+
+          </style>
+          <a class="cta-btn" href="/menu.html">
+            <span>Check out Menu</span>
+            <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+            </svg>
+          </a>
         </div>
-    </section>
-
-    <section class="menu" id="menu">
-        <h1 class="heading">our <span>menu</span></h1>
-        <div class="box-container">
-            <div class="box">
-
-                <div class="box-head">
-                    <img src="./image/pngwing.com.png" alt="">
-                    <span class="menu-category">Pizza</span>
-                    <h3>6 Mini Pizzas</h3>
-                    <div class="price">$104.99</div>
-                </div>
-                <div class="box-bottom">
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-            <div class="box">
-
-                <div class="box-head">
-                    <img src="./image/pngwing.com (2).png" alt="">
-                    <span class="menu-category">Burger</span>
-                    <h3>5 Mini Burgers</h3>
-                    <div class="price">$99.99 </div>
-                </div>
-                <div class="box-bottom">
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-            <div class="box">
-
-                <div class="box-head">
-                    <img src="./image/pngwing.com (1).png" alt="">
-                    <span class="menu-category">Pizza</span>
-                    <h3>2 Mixed Pizzas</h3>
-                    <div class="price">$ <span>$</span></div>
-                </div>
-                <div class="box-bottom">
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-            <div class="box">
-
-                <div class="box-head">
-                    <img src="./image/pngwing.com (3).png" alt="">
-                    <span class="menu-category">Burger</span>
-                    <h3>3 Meatball Burgers</h3>
-                    <div class="price">$ <span>$</span></div>
-                </div>
-                <div class="box-bottom">
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-        </div>
-    </section>
-  
-    <section class="products" id="products">
-        <h1 class="heading">our <span>products</span> </h1>
-        <div class="box-container">
-            <div class="box">
-                <div class="box-head">
-                    <span class="title">mini burger</span>
-                    <a href="#" class="name">Bacon Burger</a>
-                </div>
-                <div class="image">
-                    <img src="./image/pngwing.com (6).png" alt="">
-                </div>
-                <div class="box-bottom">
-                    <div class="info">
-                        <b class="price">$</b>
-                        <span class="amount">110gr / 300 Cal</span>
-                    </div>
-                    <div class="product-btn">
-                        <a href="#">
-                            <i class="fas fa-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-head">
-                    <span class="title">cheese burger</span>
-                    <a href="#" class="name">cheese Burger</a>
-                </div>
-                <div class="image">
-                    <img src="./image/pngwing.com (4).png" alt="">
-                </div>
-                <div class="box-bottom">
-                    <div class="info">
-                        <b class="price">$</b>
-                        <span class="amount">140gr / 2500 Cal</span>
-                    </div>
-                    <div class="product-btn">
-                        <a href="#">
-                            <i class="fas fa-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-head">
-                    <span class="title">Double burger</span>
-                    <a href="#" class="name">Double Burger</a>
-                </div>
-                <div class="image">
-                    <img src="./image/pngwing.com (5).png" alt="">
-                </div>
-                <div class="box-bottom">
-                    <div class="info">
-                        <b class="price">$24.00</b>
-                        <span class="amount">440gr / 600 Cal</span>
-                    </div>
-                    <div class="product-btn">
-                        <a href="#">
-                            <i class="fas fa-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   
         
+        </div>
+    </section>    
    
 
    
@@ -279,7 +187,7 @@ body {
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
-  color: #A6E2DC;
+  color: #6A515E;
   font-family: "MockFlowFont";   
   font-size: 1.5em;
   display: -webkit-box;
@@ -295,61 +203,61 @@ body {
                 <div class="card__overlay">
                   <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                    <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                    <img class="card__thumb" src="images/gurl1.png" alt="" />
                     <div class="card__header-text">
                       <h3 class="card__title">Jessica Parker</h3>            
                       <span class="card__status">1 hour ago</span>
                     </div>
                   </div>
-                  <p class="card__description">Nothing is better than a Cookeria style burger at home !</p>
+                  <p class="card__description">Nothing is better than a filling burger after a movie</p>
                 </div>
               </a>      
             </li>
             <li>
               <a href="" class="card">
-                <img src="images/617082b0e4f84.image.jpg" class="card__image" alt="" />
+                <img src="images/milk.jpg" class="card__image" alt="" />
                 <div class="card__overlay">        
                   <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-                    <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                    <img class="card__thumb" src="images/gurl2.png" alt="" />
                     <div class="card__header-text">
                       <h3 class="card__title">Kim Cattrall</h3>
                       <span class="card__status">3 hours ago</span>
                     </div>
                   </div>
-                  <p class="card__description">Ordered this pizza 30 mins back but is still piping hot !</p>
+                  <p class="card__description">Delicious and fresh</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="card">
-                <img src="images/d76d5ce70dece126ed6f71fc960a0695.jpg" class="card__image" alt="" />
+                <img src="images/cheesey.jpg" class="card__image" alt="" />
                 <div class="card__overlay">
                   <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                    <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                    <img class="card__thumb" src="images/gurl1.png" alt="" />
                     <div class="card__header-text">
                       <h3 class="card__title">Missy Baker</h3>
                       <span class="card__status">1 hour ago</span>
                     </div>
                   </div>
-                  <p class="card__description">Mouth watering yet healty</p>
+                  <p class="card__description">Mouth wateringly cheesylicious</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="card">
-                <img src="images/DSC_0022 (2).JPG" class="card__image" alt="" />
+                <img src="images/hot-chocolate-600-.jpg" class="card__image" alt="" />
                 <div class="card__overlay">
                   <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-                    <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                    <img class="card__thumb" src="images/gurl2.png" alt="" />
                     <div class="card__header-text">
                       <h3 class="card__title">Lorel Campa</h3>
                       <span class="card__status">3 hours ago</span>
                     </div>          
                   </div>
-                  <p class="card__description">Tastes just like my Grandma's Brisket</p>
+                  <p class="card__description">Tastes like childhood</p>
                 </div>
               </a>
             </li>    
