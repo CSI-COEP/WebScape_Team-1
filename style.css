@@ -900,3 +900,38 @@ a {
 .fa-sun {
   color: yellow;
 }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+
+  30% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.content h3 {
+  animation: moveInLeft 3s;
+}
+.content h3 {
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

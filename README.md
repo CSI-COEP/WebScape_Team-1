@@ -31,3 +31,15 @@ You have been given a partially designed online food ordering website. Your task
   <li>Number of functionalities added.</li>
   <li>Scalability of the website if hosted.</li>
 </ol>
+
+### Features Implemented:
+<ol>
+  <li>Responsiveness.</li>
+  <li>Menu Page: Sorting </li>
+  <li>Menu Page: Filter </li>
+  <li>Menu Page: Favourit Food Stored in Local Storage as well </li>
+  <li>About Us</li>
+  <li>Contact Us Us</li>
+  <li>Dark and Light Mode</li>
+</ol>
+### https://csi-coep.github.io/WebScape_Team-1/
