@@ -83,11 +83,11 @@
     <div class="container">
         <div class="row">
             <div class="searchWrapper">
-                <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.."
+                <input type="text" id="myInput" onkeyup="search()" placeholder="Search for Food Items.."
                     title="Type in a name">
             </div>
         </div>
-        <div class="row">
+        <div class="row topContainer">
             <select name="sort" id="dropdown-sort">
                 <option value="">--Sort By --</option>
                 <option class="dropdown-item px-2"><a href="#">Sort by Price(Highest to Lowest)</a></option>
@@ -98,8 +98,8 @@
                 <option class="dropdown-item px-2"><a href="#">Burgers</a></option>
                 <option class="dropdown-item px-2"><a href="#">Beverages</a></option>
             </select>
-            <button onclick="seeAllFavouriteFood()">Your Favourite
-                Food</button>
+            <button class="button-24" onclick="seeAllFavouriteFood()">Your Favourite
+                Food <i class="fas fa-heart"></i> </button>
         </div>
 
 
