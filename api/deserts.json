@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "McFlurry with OREO Cookies",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-oreo-mcflurry-snack:1-4-product-tile-desktop"
             },
@@ -16,7 +16,7 @@
     {
         "id": 2,
         "name": "McFlurry with M&M'S Candies",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mm-mcflurry-snack:1-4-product-tile-desktop"
             },
@@ -30,7 +30,7 @@
     {
         "id": 3,
         "name": "Vanilla Cone",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Vanilla-Reduced-Fat-Ice-Cream-Cone:1-4-product-tile-desktop"
             },
@@ -44,7 +44,7 @@
     {
         "id": 4,
         "name": "Chocolate Shake",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Chocolate-McCafe-Shake-Medium-1:1-4-product-tile-desktop"
             },
@@ -58,7 +58,7 @@
     {
         "id": 5,
         "name": "Vanilla Shake",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Vanilla-McCafe-Shake-Medium-1:1-4-product-tile-desktop"
             },
@@ -72,7 +72,7 @@
     {
         "id": 6,
         "name": "Strawberry Shake",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Strawberry-McCafe-Shake-Medium-1:1-4-product-tile-desktop"
             },
@@ -86,7 +86,7 @@
     {
         "id": 7,
         "name": "Hot Fudge Sundae",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Hot-Fudge-Sundae:1-4-product-tile-desktop"
             },
@@ -100,7 +100,7 @@
     {
         "id": 7,
         "name": "Hot Caramel Sundae",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Hot-Caramel-Sundae-1:1-4-product-tile-desktop"
             },
@@ -114,7 +114,7 @@
     {
         "id": 8,
         "name": "Baked Apple Pie",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Baked-Hot-Apple-Pie-1:1-4-product-tile-desktop"
             },
@@ -128,7 +128,7 @@
     {
         "id": 9,
         "name": "Chocolate Chip Cookie",
-        "img": [
+        "images": [
             {
                 "sm": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Chocolate-Chip-Cookie-mcd:1-4-product-tile-desktop"
             },

@@ -11,7 +11,7 @@
 //   .then((response) => console.log(response))
 //   .catch((err) => console.error(err));
 // main row element to show the food list
-let mainRow = document.getElementById("HotelList");
+let mainRow = document.getElementById("FoodList");
 // error message element to show the message likr no search, no favourite etc
 let errorMessageElement = document.getElementById("notificationMessage");
 // select dropdown for sort using event delegation
@@ -59,16 +59,12 @@ let getFoodCard = (singleFoodData) => {
   <div class="content-box">
     <h4 class="name">${singleFoodData.name}</h4>
     <p class="text_compress">${singleFoodData.desc}</p>
-    <p class="text_compress">${singleFoodData.ingredients
-      .map((i) => i.name)
-      .toString()}</p>
+    
     <div class="btn">
       <h2 class="price">$ ${singleFoodData.price}</h2>
       <a class="orderNow" href="#">Order Now</a>
     </div>
-              <a onclick="markFavourite(this, ${
-                singleFoodData.id
-              })" class="fav-icon" id="${favIconClass}"><i class="fa fa-heart" ></i><a>
+              <a onclick="markFavourite(this, ${singleFoodData.id})" class="fav-icon" id="${favIconClass}"><i class="fa fa-heart" ></i><a>
   </div>
 </div>`;
 };

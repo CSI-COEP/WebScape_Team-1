@@ -751,7 +751,7 @@ a {
 }
 .text_compress {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 6;
   overflow: scroll;
   -webkit-box-orient: vertical;
 }
