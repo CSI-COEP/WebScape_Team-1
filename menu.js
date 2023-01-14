@@ -80,11 +80,11 @@ let displayAllFood = () => {
       console.log(allFoodDataCopy);
       mainRow.innerHTML = generateView(data).join("");
     })
-    .catch(
-      (error) =>
-        (errorMessageElement.innerText =
-          "Something bad Happend!! We are Working on it")
-    );
+    .catch((error) => {
+      errorMessageElement.innerText =
+        "Something bad Happend!! We are Working on it";
+      console.log(error);
+    });
 };
 
 displayAllFood();
@@ -128,7 +128,20 @@ selectSorting.addEventListener("change", (e) => {
     mainRow.innerHTML = generateView(sortByRating).join("");
   }
 });
-
+selectFilter.addEventListener("change", (e) => {
+  console.log("values", e.target.value);
+  let filteredFoods = [];
+  if (e.target.value === "Burgers") {
+    filteredFoods = allFoodDataCopy.filter(
+      (foods) => foods.category == "burgers"
+    );
+  } else if (e.target.value === "Beverages") {
+    filteredFoods = allFoodDataCopy.filter(
+      (foods) => foods.category == "beverages"
+    );
+  }
+  mainRow.innerHTML = generateView(filteredFoods).join("");
+});
 //mark favourite - add red color if item is pushed into the localstorage or mark white if item is removed form the local storage
 function markFavourite(abc, id) {
   if (!localStorage.getItem("fav")) {

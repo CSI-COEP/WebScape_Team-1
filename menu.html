@@ -82,7 +82,7 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="searchWrapper">
                 <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.."
                     title="Type in a name">
             </div>
@@ -92,6 +92,11 @@
                 <option value="">--Sort By --</option>
                 <option class="dropdown-item px-2"><a href="#">Sort by Price(Highest to Lowest)</a></option>
                 <option class="dropdown-item px-2"><a href="#">Sort by Price(Lowest to Highest)</a></option>
+            </select>
+            <select name="filter" id="dropdown-filter">
+                <option value="">--Filter By --</option>
+                <option class="dropdown-item px-2"><a href="#">Burgers</a></option>
+                <option class="dropdown-item px-2"><a href="#">Beverages</a></option>
             </select>
             <button onclick="seeAllFavouriteFood()">Your Favourite
                 Food</button>

@@ -11,7 +11,8 @@
             }
         ],
         "desc": "The McDonald’s McFlurry® with OREO® Cookies is a popular combination of creamy vanilla soft serve with crunchy pieces of OREO® cookies! Available in regular and snack sizes. There are 510 calories in a regular size OREO® McFlurry® at McDonald's. Check out all the McFlurry® flavors on the McDonald's Desserts & Shakes menu. ",
-        "price": 8
+        "price": 8,
+        "category": "deserts"
     },
     {
         "id": 2,
@@ -25,7 +26,8 @@
             }
         ],
         "desc": "The McDonald’s M&M ® McFlurry® is a sweet, creamy M&M’S® dessert of vanilla soft serve with M&M’S® chocolate candies swirled in. Available in Regular Size and Snack Size.",
-        "price": 8
+        "price": 8,
+        "category": "deserts"
     },
     {
         "id": 3,
@@ -39,7 +41,8 @@
             }
         ],
         "desc": "Enjoy our creamy vanilla soft serve in a crispy cone! It's the perfect sweet treat in addition to any McDonald's meal or on its own! There are 200 calories in McDonald's soft serve cones! ",
-        "price": 5
+        "price": 5,
+        "category": "deserts"
     },
     {
         "id": 4,
@@ -53,7 +56,8 @@
             }
         ],
         "desc": "Try the McDonald’s Chocolate Shake, the perfect sweet treat for any time of the day. Our chocolate shake is made with delicious soft serve, chocolate syrup and finished off with a creamy whipped topping. McDonald's Chocolate Shake is available in small, medium and large. ",
-        "price": 11
+        "price": 11,
+        "category": "deserts"
     },
     {
         "id": 5,
@@ -67,7 +71,8 @@
             }
         ],
         "desc": "McDonald's vanilla shake is made with our creamy vanilla soft serve and topped with whipped topping for a cool, tasty treat. Available in small, medium, and large. There are 510 calories in a small vanilla shake at McDonald's. ",
-        "price": 10
+        "price": 10,
+        "category": "deserts"
     },
     {
         "id": 6,
@@ -81,7 +86,8 @@
             }
         ],
         "desc": "McDonald's Strawberry Shake is made with creamy vanilla soft serve, blended with strawberry syrup and topped with whipped topping. There are 530 calories in a small Strawberry Shake at McDonald's. Available in small, medium, and large. ",
-        "price": 9
+        "price": 9,
+        "category": "deserts"
     },
     {
         "id": 7,
@@ -95,7 +101,8 @@
             }
         ],
         "desc": "Our classic hot fudge sundae is made with creamy vanilla soft serve and smothered in chocolaty hot fudge topping. There are 330 calories in a Hot Fudge Sundae at McDonald's. ",
-        "price": 8
+        "price": 8,
+        "category": "deserts"
     },
     {
         "id": 7,
@@ -109,7 +116,8 @@
             }
         ],
         "desc": "Treat yourself to a Hot Caramel Sundae at McDonald's! This Caramel Sundae combines creamy vanilla soft serve and warm, buttery caramel topping. ",
-        "price": 14
+        "price": 14,
+        "category": "deserts"
     },
     {
         "id": 8,
@@ -123,7 +131,8 @@
             }
         ],
         "desc": "McDonald's Baked Apple Pie recipe features 100% American-grown apples, and a lattice crust baked to perfection and topped with sprinkled sugar. There are 230 calories in McDonald's apple pie. Pair it with a Hot Caramel Sundae for your own twist on Apple Pie A-La-Mode! Order a Baked Apple Pie",
-        "price": 11
+        "price": 11,
+        "category": "deserts"
     },
     {
         "id": 9,
@@ -137,6 +146,7 @@
             }
         ],
         "desc": "McDonald's classic chocolate chip cookie, loaded with chocolate chips. It's a soft baked cookie and warmed to perfection. ",
-        "price": 12
+        "price": 12,
+        "category": "deserts"
     }
 ]
