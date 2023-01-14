@@ -119,7 +119,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--bg-color);
   padding: 0 7%;
   margin: 2rem 7%;
   border-radius: 30rem;
@@ -160,7 +160,11 @@ a {
 .header .logo img {
   height: 9rem;
 }
-
+.navbar {
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+}
 .header .navbar a {
   margin: 0 1rem;
   font-size: 1.6rem;
@@ -827,4 +831,72 @@ a {
 
 .button-24:active {
   opacity: 0.5;
+}
+
+:root {
+  --font-color: #24292f;
+  --font-color-1: #57606a;
+  --bg-color: #eeffff;
+  --secondary-color: #f3f4f6;
+  --accent-color: #0969da;
+  --accent-color1: #1f6feb;
+}
+
+[data-theme="dark"] {
+  --font-color: #c9d1d9;
+  --font-color-1: #8b949e;
+  --bg-color: #0d1117;
+  --secondary-color: #30363d;
+  --accent-color: #58a6ff;
+  --accent-color1: #1f6feb;
+}
+.theme-switch-wrapper {
+  position: absolute;
+  top: 90%;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.theme-switch-wrapper .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.theme-switch-wrapper .label {
+  width: 50px;
+  height: 26px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.theme-switch-wrapper .ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+/*  target the elemenent after the label*/
+.theme-switch-wrapper .checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
 }
